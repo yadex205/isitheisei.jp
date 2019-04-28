@@ -1,0 +1,21 @@
+{
+  "name": "isitheisei.jp",
+  "version": "0.1.0",
+  "description": "The sources for isitheisei.jp",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yadex205/isitheisei.jp.git"
+  },
+  "author": "Kanon Kakuno <yadex205@outlook.jp>",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/yadex205/isitheisei.jp/issues"
+  },
+  "homepage": "https://github.com/yadex205/isitheisei.jp#readme"
+}
