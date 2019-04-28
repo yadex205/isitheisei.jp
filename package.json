@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/yadex205/isitheisei.jp/issues"
   },
-  "homepage": "https://github.com/yadex205/isitheisei.jp#readme"
+  "homepage": "https://github.com/yadex205/isitheisei.jp#readme",
+  "dependencies": {
+    "gatsby": "^2.3.32"
+  }
 }
