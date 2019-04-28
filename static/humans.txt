@@ -17,3 +17,12 @@ axios (https://github.com/axios/axios)
 
 Hosted on:
 GitHub Pages (https://pages.github.com)
+
+
+/* SITE */
+
+## [1.0.0] - 2019-04-29
+### Added
+- Insert Google Analytics tracking code
+### Changed
+- Implement with gatsby.js

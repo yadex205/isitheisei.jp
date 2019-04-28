@@ -14,6 +14,7 @@ export default class Layout extends React.Component<Props> {
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
           <link href="/humans.txt" rel="author" />
+
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:creator" content="@yadex205_vj" />
           <meta property="og:title" content="Is it Heisei?" />
@@ -21,6 +22,18 @@ export default class Layout extends React.Component<Props> {
           <meta property="og:url" content="https://isitheisei.jp" />
           <link href="https://isitheisei.jp" rel="canonical" />
           <title>Is it Heisei?</title>
+
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58689033-4"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'UA-58689033-4');
+              `
+            }}
+          />
         </Helmet>
         {this.props.children}
       </>
