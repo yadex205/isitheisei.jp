@@ -10,6 +10,7 @@ export default class Layout extends React.Component<Props> {
     return (
       <>
         <Helmet>
+          <html lang="en" />
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -22,6 +23,7 @@ export default class Layout extends React.Component<Props> {
           <meta property="og:url" content="https://isitheisei.jp" />
           <link href="https://isitheisei.jp" rel="canonical" />
           <title>Is it Heisei?</title>
+          <meta name="description" content="Today is Heisei or not?" />
         </Helmet>
         {this.props.children}
       </>
