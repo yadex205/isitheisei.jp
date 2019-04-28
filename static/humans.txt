@@ -21,6 +21,23 @@ GitHub Pages (https://pages.github.com)
 
 /* SITE */
 
+## [1.2.0] - 2019-04-29
+### Added
+- Print console messege about this site
+
+## [1.1.1] - 2019-04-29
+### Added
+- Add lang, description for Lighthouse score
+
+## [1.1.0] - 2019-04-29
+### Changed
+- Use gatsby-plugin-google-analytics to embed GA tracking code,
+  instaed of react-helmet
+
+## [1.0.1] - 2019-04-29
+### Added
+- Add CNAME file
+
 ## [1.0.0] - 2019-04-29
 ### Added
 - Insert Google Analytics tracking code

@@ -6,6 +6,10 @@ interface Props {
 }
 
 export default class Layout extends React.Component<Props> {
+  componentDidMount() {
+    console.info('About this site, see /humans.txt !');
+  }
+
   render() {
     return (
       <>
