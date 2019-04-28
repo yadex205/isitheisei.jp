@@ -1,0 +1,28 @@
+/* TEAM */
+
+Kanon Kakuno
+Twitter: @yadex205_vj
+
+
+/* THANKS */
+
+Inspired by:
+Is it Christmas? (https://isitchristmas.com)
+
+Powered by:
+Gatsby (https://gatsbyjs.org)
+styled components (https://www.styled-components.com)
+React Helmet (https://github.com/nfl/react-helmet)
+axios (https://github.com/axios/axios)
+
+Hosted on:
+GitHub Pages (https://pages.github.com)
+
+
+/* SITE */
+
+## [1.0.0] - 2019-04-29
+### Added
+- Insert Google Analytics tracking code
+### Changed
+- Implement with gatsby.js

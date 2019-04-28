@@ -7,8 +7,9 @@
   },
   "scripts": {
     "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve"
+    "build": "gatsby clean && gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
   },
   "repository": {
     "type": "git",
