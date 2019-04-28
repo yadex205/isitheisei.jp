@@ -8,6 +8,13 @@ module.exports = {
       options: {
         component: require.resolve('./src/layout.tsx')
       }
+    },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-58689033-4',
+        cookieDomain: 'none'
+      }
     }
   ]
 };

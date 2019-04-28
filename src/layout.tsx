@@ -22,18 +22,6 @@ export default class Layout extends React.Component<Props> {
           <meta property="og:url" content="https://isitheisei.jp" />
           <link href="https://isitheisei.jp" rel="canonical" />
           <title>Is it Heisei?</title>
-
-          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58689033-4"></script>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'UA-58689033-4');
-              `
-            }}
-          />
         </Helmet>
         {this.props.children}
       </>
