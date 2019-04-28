@@ -1,2 +1,5 @@
 /node_modules
 npm-*.log
+
+/.cache
+/public

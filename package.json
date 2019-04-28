@@ -6,7 +6,9 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,23 @@
   },
   "homepage": "https://github.com/yadex205/isitheisei.jp#readme",
   "dependencies": {
-    "gatsby": "^2.3.32"
+    "axios": "^0.18.0",
+    "gatsby": "^2.3.32",
+    "gatsby-plugin-layout": "^1.0.15",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0",
+    "react-render-html": "^0.6.0",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.14",
+    "@types/react-helmet": "^5.0.8",
+    "@types/styled-components": "^4.1.14",
+    "gatsby-plugin-styled-components": "^3.0.7",
+    "gatsby-plugin-typescript": "^2.0.13",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "typescript": "^3.4.5"
   }
 }
