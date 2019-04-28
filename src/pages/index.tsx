@@ -39,7 +39,7 @@ export default class IndexPage extends React.Component<{}, State> {
 
     this.state = {
       usingRemoteTime: 'notyet',
-      isitheisei: Date.now() >= BEGINNING_OF_REIWA
+      isitheisei: Date.now() < BEGINNING_OF_REIWA
     };
   }
 
@@ -82,7 +82,7 @@ export default class IndexPage extends React.Component<{}, State> {
       current = this.remoteCurrentTime + (current - this.remoteCurrentTimeReceivedAt);
     }
 
-    this.setState({ isitheisei: current >= BEGINNING_OF_REIWA });
+    this.setState({ isitheisei: current < BEGINNING_OF_REIWA });
 
     if (BEGINNING_OF_REIWA > current) {
       window.clearTimeout(this.updateTimer);

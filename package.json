@@ -20,6 +20,7 @@
     "url": "https://github.com/yadex205/isitheisei.jp/issues"
   },
   "homepage": "https://github.com/yadex205/isitheisei.jp#readme",
+  "private": true,
   "dependencies": {
     "axios": "^0.18.0",
     "gatsby": "^2.3.32",
